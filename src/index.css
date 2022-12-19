@@ -1,18 +1,22 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-html{
-  font-size:16px;
+html {
+  font-size: 16px;
 }
-:focus{
+:focus {
   outline: none;
 }
-body{
-  font-family: 'DM Sans', sans-serif;
-
+body {
+  font-family: "DM Sans", sans-serif;
 }
-
-
-
+.loading,
+.error {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}

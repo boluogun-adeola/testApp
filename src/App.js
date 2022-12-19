@@ -52,9 +52,9 @@ function App() {
       <Header />
       <Search search={search} />
       {loading && !error ? (
-        <p>Loading...</p>
+        <h2 className="loading">Loading...</h2>
       ) : error ? (
-        <p>Unable to Provide Movie List at this time</p>
+        <h2 className="error">Unable to Provide Movie List at this time</h2>
       ) : (
         <MovieList movies={movies} />
       )}
